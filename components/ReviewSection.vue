@@ -1,5 +1,5 @@
 <template>
-    <div class="w-11/12 mx-auto grid grid-cols-12 gap-5 md:gap-10">
+    <div class="w-11/12 mx-auto md:grid grid-cols-12 gap-5 md:gap-10">
         <section class="md:col-span-5 p-5">
             <h3 class="text-3xl font-bold">Customer Reviews</h3>
             <div class="flex items-center my-3">
