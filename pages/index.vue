@@ -24,6 +24,9 @@
         <div class="mt-20">
             <ReviewSection/>
         </div>
+        <div class="mt-20">
+            <OrderHistry/>
+        </div>
     </div>
 </template>
 
