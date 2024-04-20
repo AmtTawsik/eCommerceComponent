@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-white text-black">
         <StoreNevigation/>
         <HeroSection/>
         <div class="mt-20">
