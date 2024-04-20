@@ -5,65 +5,65 @@
                 <h4 class="text-xl font-semibold mb-4">Contact information</h4>
                 <form>
                     <div class="mb-5">
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your
                             email</label>
                         <input type="email" id="email"
-                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-white"
+                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white"
                             required />
                     </div>
-                    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+                    <hr class="h-px my-8 bg-gray-200 border-0">
                     <h4 class="text-xl font-semibold mb-4">Shipping information</h4>
                     <div class="grid gap-4 sm:grid-cols-2 sm:gap-6 mb-5">
                         <div class="w-full">
-                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First
+                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900">First
                                 Name</label>
                             <input type="text" name="first_name" id="first_name"
-                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                                 required="">
                         </div>
                         <div class="w-full">
-                            <label for="brand" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last
+                            <label for="brand" class="block mb-2 text-sm font-medium text-gray-900">Last
                                 Name</label>
                             <input type="text" name="last_name" id="last_name"
-                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                                 required="">
                         </div>
                     </div>
                     <div class="mb-5">
                         <label for="company"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company</label>
+                            class="block mb-2 text-sm font-medium text-gray-900">Company</label>
                         <input type="text" id="company"
-                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-white"
+                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white"
                             required />
                     </div>
                     <div class="mb-5">
                         <label for="address"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Address</label>
+                            class="block mb-2 text-sm font-medium text-gray-900">Address</label>
                         <input type="text" id="address"
-                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-white"
+                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white"
                             required />
                     </div>
                     <div class="mb-5">
                         <label for="apartment"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apartment, suite,
+                            class="block mb-2 text-sm font-medium text-gray-900">Apartment, suite,
                             etc.</label>
                         <input type="text" id="apartment"
-                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-white"
+                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white"
                             required />
                     </div>
                     <div class="grid gap-4 sm:grid-cols-2 sm:gap-6 mb-5">
                         <div class="w-full">
                             <label for="city"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">City</label>
+                                class="block mb-2 text-sm font-medium text-gray-900">City</label>
                             <input type="text" name="city" id="city"
-                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                                 required="">
                         </div>
                         <div class="w-full">
                             <label for="country"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Country</label>
+                                class="block mb-2 text-sm font-medium text-gray-900">Country</label>
                             <select
-                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                                 name="country" id="country">
                                 <option value="United States">United States</option>
                                 <option value="Canada">Canada</option>
@@ -74,35 +74,35 @@
                     <div class="grid gap-4 sm:grid-cols-2 sm:gap-6 mb-5">
                         <div class="w-full">
                             <label for="state"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">State /
+                                class="block mb-2 text-sm font-medium text-gray-900">State /
                                 Province</label>
                             <input type="text" name="state" id="state"
-                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                                 required="">
                         </div>
                         <div class="w-full">
                             <label for="code"
-                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Postal code</label>
+                                class="block mb-2 text-sm font-medium text-gray-900">Postal code</label>
                             <input type="text" name="code" id="code"
-                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                                 required="">
                         </div>
                     </div>
                     <div class="mb-5">
                         <label for="phone"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone</label>
+                            class="block mb-2 text-sm font-medium text-gray-900">Phone</label>
                         <input type="number" id="phone"
-                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-white"
+                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white"
                             required />
                     </div>
-                    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+                    <hr class="h-px my-8 bg-gray-200 border-0">
                     <h4 class="text-xl font-semibold mb-4">Delivery method</h4>
                     <ul class="grid w-full gap-6 md:grid-cols-2">
                         <li>
                             <input type="radio" v-model="delivery" id="hosting-small" name="hosting"
                                 value="hosting-small" class="hidden peer" required />
                             <label for="hosting-small"
-                                class="inline-flex items-center justify-between w-full p-3 text-black bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                                class="inline-flex items-center justify-between w-full p-3 text-black bg-white border border-gray-200 rounded-lg cursor-pointerhover:text-gray-300 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
                                 <div class="block">
                                     <div class="w-full">Standard</div>
                                     <div class="w-full">4–10 business days</div>
@@ -120,7 +120,7 @@
                             <input type="radio" v-model="delivery" id="hosting-big" name="hosting" value="hosting-big"
                                 class="hidden peer">
                             <label for="hosting-big"
-                                class="inline-flex items-center justify-between w-full p-3 text-black bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                                class="inline-flex items-center justify-between w-full p-3 text-black bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
                                 <div class="block">
                                     <div class="w-full">Express</div>
                                     <div class="w-full">3–5 business days</div>
@@ -135,52 +135,52 @@
                             </label>
                         </li>
                     </ul>
-                    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+                    <hr class="h-px my-8 bg-gray-200 border-0">
                     <h4 class="text-xl font-semibold mb-4">Payment</h4>
                     <div class="flex mb-5">
                         <div class="flex items-center me-8">
                             <input id="inline-radio" type="radio" value="" name="inline-radio-group"
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
                             <label for="inline-radio"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Credit card</label>
+                                class="ms-2 text-sm font-medium text-gray-900">Credit card</label>
                         </div>
                         <div class="flex items-center me-8">
                             <input id="inline-2-radio" type="radio" value="" name="inline-radio-group"
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
                             <label for="inline-2-radio"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">PayPal</label>
+                                class="ms-2 text-sm font-medium text-gray-900">PayPal</label>
                         </div>
                         <div class="flex items-center me-8">
                             <input checked id="inline-checked-radio" type="radio" value="" name="inline-radio-group"
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
                             <label for="inline-checked-radio"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">eTransfer</label>
+                                class="ms-2 text-sm font-medium text-gray-900">eTransfer</label>
                         </div>
                     </div>
                     <div class="mb-5">
-                        <label for="card" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Card number</label>
+                        <label for="card" class="block mb-2 text-sm font-medium text-gray-900">Card number</label>
                         <input type="number" id="card"
-                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-white"
+                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white"
                             required />
                     </div>
                     <div class="mb-5">
-                        <label for="card_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name on card</label>
+                        <label for="card_name" class="block mb-2 text-sm font-medium text-gray-900">Name on card</label>
                         <input type="text" id="card_name"
-                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-white"
+                            class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-white"
                             required />
                     </div>
 
                     <div class="grid gap-4 grid-cols-12 sm:gap-6 mb-5">
                         <div class="w-full col-span-9">
-                            <label for="ex_date" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Expiration date (MM/YY)</label>
+                            <label for="ex_date" class="block mb-2 text-sm font-medium text-gray-900">Expiration date (MM/YY)</label>
                             <input type="date" name="ex_date" id="ex_date"
-                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                                 required="">
                         </div>
                         <div class="w-full col-span-3">
-                            <label for="cvc" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">CVC</label>
+                            <label for="cvc" class="block mb-2 text-sm font-medium text-gray-900">CVC</label>
                             <input type="number" name="cvc" id="cvc"
-                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                                 required="">
                         </div>
                     </div>
@@ -216,16 +216,16 @@
                     <section class="col-span-5 h-fit p-5 bg-white">
                         <h6 class="text-xl font-medium">Order summary</h6>
                         <div class="flow-root">
-                            <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                            <ul role="list" class="divide-y divide-gray-200">
                                 <li class="py-3 sm:py-4">
                                     <div class="flex items-center">
                                         <div class="flex-1 min-w-0 ms-4">
-                                            <p class="text-gray-500 truncate dark:text-gray-400">
+                                            <p class="text-gray-500 truncate">
                                                 Subtotal
                                             </p>
                                         </div>
                                         <div
-                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            class="inline-flex items-center text-base font-semibold text-gray-900">
                                             $99.00
                                         </div>
                                     </div>
@@ -233,12 +233,12 @@
                                 <li class="py-3 sm:py-4">
                                     <div class="flex items-center ">
                                         <div class="flex-1 min-w-0 ms-4">
-                                            <p class="text-gray-500 truncate dark:text-gray-400">
+                                            <p class="text-gray-500 truncate">
                                                 Shipping estimate
                                             </p>
                                         </div>
                                         <div
-                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            class="inline-flex items-center text-base font-semibold text-gray-900">
                                             $5.00
                                         </div>
                                     </div>
@@ -246,12 +246,12 @@
                                 <li class="py-3 sm:py-4">
                                     <div class="flex items-center ">
                                         <div class="flex-1 min-w-0 ms-4">
-                                            <p class="text-gray-500 truncate dark:text-gray-400">
+                                            <p class="text-gray-500 truncate">
                                                 Tax estimate
                                             </p>
                                         </div>
                                         <div
-                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            class="inline-flex items-center text-base font-semibold text-gray-900">
                                             $8.32
                                         </div>
                                     </div>
@@ -259,12 +259,12 @@
                                 <li class="py-3 sm:py-4">
                                     <div class="flex items-center ">
                                         <div class="flex-1 min-w-0 ms-4">
-                                            <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                                            <p class="text-lg font-medium text-gray-900 truncate">
                                                 Order total
                                             </p>
                                         </div>
                                         <div
-                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            class="inline-flex items-center text-base font-semibold text-gray-900">
                                             $112.32
                                         </div>
                                     </div>

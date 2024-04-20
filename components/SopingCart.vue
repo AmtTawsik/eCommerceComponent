@@ -5,7 +5,7 @@
             <section class="col-span-7">
                 <template v-for="product in products">
                     <div class="mb-5">
-                        <hr class="h-px mb-5 bg-gray-200 border-0 dark:bg-gray-700">
+                        <hr class="h-px mb-5 bg-gray-200 border-0">
                         <div class="flex gap-5">
                             <img class="w-48 rounded-md" :src="product.imageSrc" alt="">
                             <section class="w-full flex flex-col justify-between md:py-2">
@@ -40,16 +40,16 @@
             <section class="col-span-5 h-fit p-5 bg-[#F9FAFB]">
                 <h6 class="text-xl font-medium">Order summary</h6>
                 <div class="flow-root">
-                    <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                    <ul role="list" class="divide-y divide-gray-200">
                         <li class="py-3 sm:py-4">
                             <div class="flex items-center">
                                 <div class="flex-1 min-w-0 ms-4">
-                                    <p class="text-gray-500 truncate dark:text-gray-400">
+                                    <p class="text-gray-500 truncate">
                                         Subtotal
                                     </p>
                                 </div>
                                 <div
-                                    class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                    class="inline-flex items-center text-base font-semibold text-gray-900">
                                     $99.00
                                 </div>
                             </div>
@@ -57,12 +57,12 @@
                         <li class="py-3 sm:py-4">
                             <div class="flex items-center ">
                                 <div class="flex-1 min-w-0 ms-4">
-                                    <p class="text-gray-500 truncate dark:text-gray-400">
+                                    <p class="text-gray-500 truncate">
                                         Shipping estimate
                                     </p>
                                 </div>
                                 <div
-                                    class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                    class="inline-flex items-center text-base font-semibold text-gray-900">
                                     $5.00
                                 </div>
                             </div>
@@ -70,12 +70,12 @@
                         <li class="py-3 sm:py-4">
                             <div class="flex items-center ">
                                 <div class="flex-1 min-w-0 ms-4">
-                                    <p class="text-gray-500 truncate dark:text-gray-400">
+                                    <p class="text-gray-500 truncate">
                                         Tax estimate
                                     </p>
                                 </div>
                                 <div
-                                    class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                    class="inline-flex items-center text-base font-semibold text-gray-900">
                                     $8.32
                                 </div>
                             </div>
@@ -83,12 +83,12 @@
                         <li class="py-3 sm:py-4">
                             <div class="flex items-center ">
                                 <div class="flex-1 min-w-0 ms-4">
-                                    <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                                    <p class="text-lg font-medium text-gray-900 truncate">
                                         Order total
                                     </p>
                                 </div>
                                 <div
-                                    class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                    class="inline-flex items-center text-base font-semibold text-gray-900">
                                     $112.32
                                 </div>
                             </div>
