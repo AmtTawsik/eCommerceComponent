@@ -35,23 +35,19 @@
                     </button>
 
                     <!-- Dropdown menu -->
-                    <div id="dropdownDots"
-                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
-                        <ul class="py-2 text-sm text-gray-700"
-                            aria-labelledby="dropdownMenuIconButton">
+                    <div id="dropdownDots" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                        <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownMenuIconButton">
                             <li>
-                                <a href="#"
-                                    class="block px-4 py-2 hover:bg-gray-100">View Order</a>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100">View Order</a>
                             </li>
                             <li>
-                                <a href="#"
-                                    class="block px-4 py-2 hover:bg-gray-100">View Invoice</a>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100">View Invoice</a>
                             </li>
                         </ul>
                     </div>
                 </section>
-
-                <template v-for="product in order.products">
+                
+                <template v-for="product in order.orderItems.products">
                     <section class="border-t mb-4">
                         <div class="flex gap-x-5 p-5">
                             <img class="md:w-40 w-28 rounded-md" :src="product.img" :alt="product.name">
@@ -67,7 +63,7 @@
                             <p class="flex items-center gap-x-1">
                                 <UIcon name="i-heroicons-check-circle" class="h-5 w-5 text-green-400"
                                     aria-hidden="true" />
-                                Delivered on {{ product.deliveryDate }}
+                                Delivered on {{ order.datePlaced }}
                             </p>
                             <div class="flex items-center justify-between md:justify-normal text-lg">
                                 <p class="text-blue-600 hover:text-blue-700 cursor-pointer">View product</p>
@@ -91,43 +87,7 @@ onMounted(() => {
     initFlowbite();
 })
 
-const orders = [
-    {
-        orderNumber: "WU88191111",
-        datePlaced: "Jul 6, 2021",
-        totalAmount: 160.00,
-        products: [
-            {
-                name: "Micro Backpack",
-                description: "Are you a minimalist looking for a compact carry option? The Micro Backpack is the perfect size for your essential everyday carry items. Wear it like a backpack or carry it like a satchel for all-day use.",
-                price: 70.00,
-                img: "https://tailwindui.com/img/ecommerce-images/order-history-page-03-product-01.jpg",
-                deliveryDate: "July 12, 2021"
-            },
-            {
-                name: "Nomad Shopping Tote",
-                description: "This durable shopping tote is perfect for the world traveler. Its yellow canvas construction is water, fray, tear resistant. The matching handle, backpack straps, and shoulder loops provide multiple carry options for a day out on your next adventure.",
-                price: 90.00,
-                img: "https://tailwindui.com/img/ecommerce-images/order-history-page-03-product-02.jpg",
-                deliveryDate: "July 12, 2021"
-            },
-        ]
-    },
-    {
-        orderNumber: "AT48441546",
-        datePlaced: "Dec 22, 2020",
-        totalAmount: 40.00,
-        products: [
-            {
-                name: "Double Stack Clothing Bag",
-                description: "Save space and protect your favorite clothes in this double-layer garment bag. Each compartment easily holds multiple pairs of jeans or tops, while keeping your items neatly folded throughout your trip.",
-                price: 40.00,
-                img: "https://tailwindui.com/img/ecommerce-images/order-history-page-03-product-03.jpg",
-                deliveryDate: "January 5, 2021"
-            }
-        ]
-    }
-]
+const { orders } = defineProps(["orders"]);
 </script>
 
 <style lang="scss" scoped></style>
