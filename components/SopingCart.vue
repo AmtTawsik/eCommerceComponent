@@ -3,7 +3,7 @@
         <h2 class="text-3xl md:text-5xl font-bold mb-10">Shopping Cart</h2>
         <div class="md:grid grid-cols-12 gap-5 md:gap-10">
             <section class="col-span-7">
-                <template v-for="cart in carts.cartItem">
+                <template v-for="cart in carts?.cartItem">
                     <div class="mb-5">
                         <hr class="h-px mb-5 bg-gray-200 border-0">
                         <div class="flex gap-5">
@@ -102,5 +102,5 @@
 
 <script setup>
 const { carts, people } = defineProps(["carts", "people"]);
-const selected = ref(people[0])
+const selected = ref(0)
 </script>

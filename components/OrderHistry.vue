@@ -47,16 +47,16 @@
                     </div>
                 </section>
                 
-                <template v-for="product in order.orderItems.products">
+                <template v-for="data in order.orderItems">
                     <section class="border-t mb-4">
                         <div class="flex gap-x-5 p-5">
-                            <img class="md:w-40 w-28 rounded-md" :src="product.img" :alt="product.name">
+                            <img class="md:w-40 w-28 rounded-md" :src="data.product.img" :alt="data.product.name">
                             <div class="w-full">
                                 <div class="w-full md:flex justify-between">
-                                    <p class="font-semibold">{{ product.name }}</p>
-                                    <p class="font-semibold">${{ product.price }}</p>
+                                    <p class="font-semibold">{{ data.product.name }}</p>
+                                    <p class="font-semibold">${{ data.product.price }}</p>
                                 </div>
-                                <p class="mt-2 hidden md:block">{{ product.description }}</p>
+                                <p class="mt-2 hidden md:block">{{ data.product.description }}</p>
                             </div>
                         </div>
                         <div class="w-full md:flex justify-between items-center px-5 mt-2">
